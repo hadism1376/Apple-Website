@@ -1,0 +1,229 @@
+@media(min-width:540px) and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*make menu*/
+    div.menu{
+        width:100% ;
+        background-color: #333333;
+    }
+    div.menu>nav{
+        width:inherit ;
+    }
+    div.menu>nav>ul{
+        width:inherit;
+        list-style: none;
+        display: flex;
+        flex-flow:column wrap;
+        /*justify-content:  space-evenly;*/
+    }
+    div.menu>nav>ul>li{
+        width:100%;
+        height: inherit;
+    }
+    div.menu>nav>ul>li>a{
+        width:100%;
+        height: inherit;
+        line-height: 44px;
+        display: block;
+        text-decoration: none;
+        color: #C0C0C0;
+        font-size:12px ;
+        text-align: center;
+        font-family: sans-serif;
+        transition: all 300ms linear;
+    }
+    div.menu>nav>ul>li>a:hover{
+        color: #ffffff;
+    }
+    div.menu>nav>ul>li:nth-of-type(1)>a>h1{
+        font-size: 15px;
+    }
+    div.menu>nav>ul>li:nth-of-type(12)>a>h1{
+        font-size: 15px;
+    }
+    div.menu>nav>ul>li:nth-of-type(13)>a>h1{
+        font-size: 15px;
+    }
+/*end menu*/
+    /*make header*/
+    div.header{
+        width: 100%;
+        height: 65px;
+        background-color: #f5f5f7;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    div.header>figure{
+
+        padding: 10px;
+        box-sizing: border-box;
+        align-self: baseline;
+
+    }
+    div.header>figure>a{
+        font-family: sans-serif;
+        font-size: 14px;
+        color: #408BD7;
+        text-decoration: none;
+    }
+    div.header>figure>a:hover {
+        text-decoration: underline;
+    }
+    /*   end make header*/
+    /* make img1*/
+    div.img{
+        width: 100%;
+        height: 100vh;
+        background-image: url("../../images/mac.jpg");
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        left: 100px;
+    }
+    div.wrapper{
+        width: 700px;
+        height: 100vh;
+        position: absolute;
+        top: 500px;
+        left: 0;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-end;
+        align-content:flex-end;
+    }
+    div.wrapper>a:nth-of-type(1){
+        display:inline-block ;
+        width: 100%;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: black;
+        font-size:50px;
+        font-weight: bold;
+        text-transform: capitalize;
+        align-self: center;
+
+    }
+    div.wrapper>a:nth-of-type(2){
+        display: inline-block;
+        width: 40%;
+        text-decoration: none;
+        color: #408BD7;
+        font-size:18px;
+        text-transform: capitalize;
+        align-self: flex-start;
+        transition: all 300ms linear;
+    }
+    div.wrapper>a:nth-of-type(2):hover{
+        text-decoration: underline;
+    }
+    div.wrapper>a:nth-of-type(3){
+        width: 40%;
+        display: inline-block;
+        text-decoration: none;
+        color: #408BD7;
+        font-size:18px;
+        text-transform: capitalize;
+        align-self:flex-start;
+        transition: all 300ms linear;
+    }
+    div.wrapper>a:nth-of-type(3):hover{
+        text-decoration: underline;
+    }
+    div.wrapper>h2{
+        width: 50%;
+        font-size: 25px;
+        text-transform: capitalize;
+        color: #C0C0C0;
+        margin-bottom: 10px;
+    }
+    div.wrapper>img{
+        width: 50%;
+        margin-bottom: 10px;
+        font-size:20px;
+        object-fit: cover;
+        background-size: cover;
+    }
+    /* end img1*/
+    /* make img2*/
+    div.img2{
+        width: 100%;
+        height: 100vh;
+        background-image:url("../../images/macbookpro-13.jpg");
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+    }
+    div.wrapper2{
+        width: 80%;
+        height: 100vh;
+        position: absolute;
+        top:1000px;
+        left: 80px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-end;
+        align-content:flex-end;
+    }
+    div.wrapper2>a:nth-of-type(1){
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        color:#f5f5f7;
+        font-size:40px;
+        font-weight: bold;
+        text-transform: capitalize;
+        align-self: center;
+
+    }
+    div.wrapper2>a:nth-of-type(2){
+        display: inline-block;
+        width: 50%;
+        text-decoration: none;
+        color: #408BD7;
+        font-size:18px;
+        text-transform: capitalize;
+        align-self: center;
+        transition: all 300ms linear;
+    }
+    div.wrapper2>a:nth-of-type(2):hover{
+        text-decoration: underline;
+    }
+    div.wrapper2>a:nth-of-type(3){
+        width: 40%;
+        display:block;
+        text-decoration: none;
+        color: #408BD7;
+        font-size:18px;
+        text-transform: capitalize;
+        align-self:flex-end;
+        transition: all 300ms linear;
+
+    }
+    div.wrapper2>a:nth-of-type(3):hover{
+        text-decoration: underline;
+    }
+    div.wrapper2>h2{
+        width: 55%;
+        font-size: 25px;
+        text-transform: capitalize;
+        color: #C0C0C0;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+    div.wrapper2>h1{
+        width: 45%;
+        margin-bottom: 5px;
+        font-size:20px;
+        object-fit: cover;
+        background-size: cover;
+        align-self: center;
+    }
+    /* end img2*/
+}
